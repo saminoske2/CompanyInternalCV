@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13532" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Companies" representedClassName="Companies" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Professionals" representedClassName="Professionals" syncable="YES" codeGenerationType="class">
+        <attribute name="experienceDetail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="experienceEndDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="experienceStartDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="experienceTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="jobTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="speciality" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yearsActive" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Companies" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="Professionals" positionX="-54" positionY="9" width="128" height="180"/>
+    </elements>
+</model>
